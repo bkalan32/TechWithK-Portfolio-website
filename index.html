@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+        <!-- ... (previous code) -->
+
+    <!-- Add this line to include the hidden link to your Medium profile -->
+    <a id="medium-profile-link" href="https://rb.gy/xa979" target="_blank" style="display:none;"></a>
+    <a id="cv-download-link" href="https://drive.google.com/file/d/1wlTwa8zTa7R3arZ8ESvyY-7OTJ40M800/view?usp=drive_link" style="display:none;"></a>
+    <!-- Add the JavaScript function here -->
+    <script>
+        function goToMediumProfile() {
+            var mediumProfileLink = document.getElementById('medium-profile-link');
+            mediumProfileLink.click();
+        }
+        function downloadCV() {
+            var cvDownloadLink = document.getElementById('cv-download-link');
+            cvDownloadLink.click();
+        }
+        
+    </script>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IF-edge"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Portfolio Website</title>
+    <link rel="stylesheet" href="style.css"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com"/>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+    <link 
+     href="" 
+     rel="stylesheet"
+     />
+     <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      />
+  </head>
+  <body>
+
+    <!--Container-->
+    <div class="container">
+<!-- Landing -->
+<section class="landing">
+  <h1 class="section-bg-heading">Tech With K</h1>
+  <div class="logo">
+    <span>Tech</span>
+    <span>With K</span>
+  </div>
+  <div class="banner">
+    <div class="section-border"></div>
+    <div class="developer-info">
+      <h3 class="greeting">Hello, <span>my name is</span></h3>
+      <h1 class="name"><span>Kalan</span> Barnes</h1>
+      <h3 class="prof">I am <span>Cloud Engineer/Architect</span></h3>
+      <p class="about">
+        Embark on a journey through boundless skies of cloud innovation. I craft digital ecosystems, engineering tomorrow's infrastructure today. Let's redefine your cloud experience.
+      </p>
+      <div class="social-media">
+        <div class="social-media">
+          <a href="https://www.facebook.com/kalan.barnes.921/" target="_blank">
+            <i class="fa-brands fa-facebook-f"></i>
+          </a>
+          <a href="https://www.linkedin.com/in/kalan-barnes-28b919222/" target="_blank">
+            <i class="fa-brands fa-linkedin-in"></i>
+          </a>
+        </div>
+      <div class="cv">
+        <button type="button" class="btn cv-btn" onclick="downloadCV()">Download cv</button>
+        <span>My skills</span>
+      </div>
+    </div>
+    <div class="developer-img">
+      <div class="dev-img-wrapper">
+        <img src="images/developer.png" />
+      </div>
+      <div class="dev-experience dev-work">
+        <span>2</span>
+        <span>years of experience</span>
+      </div>
+      <div class="dev-projects dev-work">
+        <span>6</span>
+        <span>completed projects</span>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- End of Landing -->
+
+<!-- Skills -->
+<section class="skills">
+  <h1 class="section-bg-heading">My Skills</h1>
+  <h1 class="section-heading">Professional Skills</h1>
+  <h3 class="sub-heading">My <span>Skills</span></h3>
+  <div class="section-border"></div>
+  <div class="skills-cards">
+    <div class="skills-card">
+      <div class="skill">
+        <span>Cloud Computing Platforms</span>
+        <span>95%</span>
+      </div>
+      <p>
+        Implemented and mangaged scalable solutions on AWS, reducing infrastructure costs by
+        20% through optimization of EC2 instances and leveraging serverless architectures.
+      </p>
+      <div class="skills-card-progress"></div>
+    </div>
+    <div class="skills-card">
+      <div class="skill">
+        <span>Infrastructure as Code (IaC)</span>
+        <span>65%</span>
+      </div>
+      <p>
+        Led the adoption of Cloudformation for infrastructure provisioning, resulting in 30% reduction
+        in deployment time and ensuring conisstent infrastructure across development, testing, and production environments.
+        Currently studying Terraform IaC platform.
+      </p>
+      <div class="skills-card-progress"></div>
+    </div>
+    <div class="skills-card">
+      <div class="skill">
+        <span>Containerization and Orchestration</span>
+        <span>70%</span>
+      </div>
+      <p>
+        Implemented Docker Containers for microservices architectures, leading to a 25%
+        improvement in application scalability. Orchestrated containerized applications using Kubernetes,
+        enhancing deployement efficiency and minimizing downtime.
+      </p>
+      <div class="skills-card-progress"></div>
+    </div>
+    <div class="skills-card">
+      <div class="skill">
+        <span>Networking and Security in the Cloud</span>
+        <span>75%</span>
+      </div>
+      <p>
+        Designed and implemented secure cloud network architectures, including VPCs and subnets, reducing security 
+        incidents by 15%. Implemented IAM policies and conducted regular secuirty audirs to ensure compliance with industry standards.
+      </p>
+      <div class="skills-card-progress"></div>
+    </div>
+    <div class="skills-card">
+      <div class="skill">
+        <span>DevOps Practices and CI/CD Pipelines</span>
+        <span>85%</span>
+      </div>
+      <p>
+        Championed the adoption of CI/CD pipelines using Jenkins, resulting in a 40% in time-to-market 
+        for new features. Automated testing processes, improving code quality andreducing post-deployment issues by 25%.
+      </p>
+      <div class="skills-card-progress"></div>
+    </div>
+  </div>
+</section>
+<!-- End of Skills -->
+<!-- Certifications -->
+<section class="certifications">
+  <h1 class="section-bg-heading">Certifications</h1>
+  <h1 class="section-heading">Certifications</h1>
+  <h3 class="sub-heading">My <span>Certifications</span></h3>
+  <div class="section-border"></div>
+  <div class="certification-cards">
+    <!-- Add your certification badges here -->
+    <div class="certification-card">
+      <img src="images/practioner.png" alt="Certification 1" />
+      <h3>Certified AWS Cloud Practioner</h3>
+      <p>Description of the certification or related skills.</p>
+    </div>
+    <div class="certification-card">
+      <img src="images/architect.png" alt="Certification 2" />
+      <h3>Certified AWS Solutions Architect</h3>
+      <p>Description of the certification or related skills.</p>
+    </div>
+    <!-- Add more certification cards as needed -->
+  </div>
+</section>
+<!-- End of Certifications -->
+<!-- Projects -->
+<section class="projects">
+  <h1 class="section-bg-heading">My Projects</h1>
+  <h1 class="section-heading">Portfolio</h1>
+  <h3 class="sub-heading">My <span>Projects</span></h3>
+  <div class="projects-cards">
+    <div class="project-card">
+      <div class="project-img">
+        <img src="images/Screenshot (13) (1).png" />
+      </div>
+      <div class="techs">
+        <span>Amazon Lex,</span>
+        <span>AWS Lambda,</span>
+        <span>serverless</span>
+      </div>
+      <h3 class="project-name">WanderStay Hotel Bot</h3>
+      <p class="project-desc">
+       Meet our Slack-integrated Hotel Booking Bot—streamlining reservations and inquiries seamlessly. Powered by AWS Lambda and Amazon Lex, it offers an effortless, 
+      natural language interface for a swift and intuitive booking experience
+      </p>
+      <button type="button" class="project-btn" onclick="goToMediumProfile()">
+        See Project <i class="fa-sharp fa-solid fa-arrow-right"></i>
+      </button>
+    </div>
+    <button type="button" class="btn">View More</button>
+  </div>
+  <div class="section-border"></div>
+</section>
+
+<!-- End of Projects -->
+
+<!-- Contact-->
+<section class="contact">
+  <h1 class="section-bg-heading">Contact Me</h1>
+  <h1 class="section-heading">Contact</h1>
+  <h3 class="sub-heading">Let's <span>Have Some Talk</span></h3>
+  <div class="section-border"></div>
+  <div class="contact-content">
+    <div class="contact-left">
+      <div class="address">
+        <i class="fa-solid fa-location-dot"></i>
+        <div class="contact-info">
+          <span>Address</span>
+          <span> Michigan, USA</span>
+        </div>
+      </div>
+      <div class="freelance">
+        <i class="fa-regular fa-user"></i>
+        <div class="contact-info">
+          <span>Freelance</span>
+          <span> Available Today!</span>
+        </div>
+      </div>
+      <div class="email">
+        <i class="fa-regular fa-envelope"></i>
+        <div class="contact-info">
+          <span>Email</span>
+          <span> bkalan32@gmail.com</span>
+        </div>
+      </div>
+      <div class="phone">
+        <i class="fa-solid fa-phone"></i>
+        <div class="contact-info">
+          <span>Phone</span>
+          <span> 586-424-8883</span>
+        </div>
+      </div>
+    </div>
+    <div class="contact-right">
+      <form>
+        <div class="input-groups">
+          <div class="input-group">
+            <label for="name"
+              >Your full name <i class="fa-solid fa-asterisk"></i
+            ></label>
+            <input type="text" />
+          </div>
+          <div class="input-group">
+            <label for="email"
+              >Your email address <i class="fa-solid fa-asterisk"></i
+            ></label>
+            <input type="email" />
+          </div>
+        </div>
+        <div class="input-group">
+          <label for="subject"
+            >Your subject <i class="fa-solid fa-asterisk"></i
+          ></label>
+          <input type="text" />
+        </div>
+        <div class="input-group">
+          <label for="message"
+            >Your message <i class="fa-solid fa-asterisk"></i
+          ></label>
+          <textarea></textarea>
+        </div>
+        <button type="button" class="contact-btn">Send Message</button>
+      </form>
+    </div>
+  </div>
+</section>
+<!-- End of Contact-->
+
+<!-- Footer -->
+<footer class="footer">
+  <div class="icons">
+    <i class="fa-brands fa-facebook-f"></i>
+    <i class="fa-brands fa-linkedin-in"></i>
+  </div>
+  <div class="copyright">
+    <p>&copy;Cloud <span>Engineer</span> All Rights
+    Reserved. 2023</p>
+  </div>
+  <div class="author">
+    <p>Made by <span>Kalan Barnes</span></P>
+  </div>
+</footer>
+<!-- End of Footer -->
+    </div>
+    <!--End of Container-->
+    <script src="script.js"></script>
+  </body>
+</html>
