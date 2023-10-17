@@ -35,6 +35,18 @@ html {
   z-index: 200;
 }
 
+.counter-number {
+  font-size: 3rem;
+  font-weight: 300;
+  text-transform: uppercase;
+  letter-spacing: 0.2rem;
+  color: #eee;
+  margin: 1rem 0;
+  transition: color 0.5s;
+}
+
+
+
 .line {
   width: 3rem;
   height: 0.2rem;
