@@ -23,6 +23,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <title>Portfolio Website</title>
     <link rel="stylesheet" href="style.css"/>
+    <link rel="stylesheet" href="responsive.css"/>
     <link rel="preconnect" href="https://fonts.googleapis.com"/>
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
     <link 
@@ -37,41 +38,41 @@
   <body>
 
     <!--Container-->
-    <div class="container">
+    <div class="container fix">
 <!-- Navigation -->
-<div class="menu-icon">
-  <div class="line line-1"></div>
-  <div class="line line-2"></div>
+<div class="menu-icon fix">
+  <div class="line line-1 fix"></div>
+  <div class="line line-2 fix"></div>
 </div>
-<nav class="navigation">
-  <div class="section-border"></div>
-  <div class="nav-items">
+<nav class="navigation fix">
+  <div class="section-border fix"></div>
+  <div class="nav-items fix">
     <a href="#">Home</a>
     <a href="#">About</a>
     <a href="#">Projects</a>
-    <div class="counter-number"></div> <!-- Insert the counter here -->
+    <div class="counter-number fix"></div> <!-- Insert the counter here -->
   </div>
 </nav>
 <!-- End of Navigation -->
 
 <!-- Landing -->
-<section class="landing">
+<section class="landing fixed">
   <h1 class="section-bg-heading">Tech With K</h1>
-  <div class="logo">
+  <div class="logo fix">
     <span>Tech</span>
     <span>With K</span>
   </div>
-  <div class="banner">
-    <div class="section-border"></div>
-    <div class="developer-info">
-      <h3 class="greeting">Hello, <span>my name is</span></h3>
-      <h1 class="name"><span>Kalan</span> Barnes</h1>
-      <h3 class="prof">I am <span>Cloud Engineer/Architect</span></h3>
-      <p class="about">
+  <div class="banner fix">
+    <div class="section-border fix"></div>
+    <div class="developer-info fix">
+      <h3 class="greeting fix">Hello, <span>my name is</span></h3>
+      <h1 class="name fix"><span>Kalan</span> Barnes</h1>
+      <h3 class="prof fix">I am <span>Cloud Engineer/Architect</span></h3>
+      <p class="about fix">
         Embark on a journey through boundless skies of cloud innovation. I craft digital ecosystems, engineering tomorrow's infrastructure today. Let's redefine your cloud experience.
       </p>
-      <div class="social-media">
-        <div class="social-media">
+      <div class="social-media fix">
+        <div class="social-media fix">
           <a href="https://www.facebook.com/kalan.barnes.921/" target="_blank">
             <i class="fa-brands fa-facebook-f"></i>
           </a>
@@ -79,20 +80,20 @@
             <i class="fa-brands fa-linkedin-in"></i>
           </a>
         </div>
-      <div class="cv">
+      <div class="cv fix">
         <button type="button" class="btn cv-btn" onclick="downloadCV()">Download cv</button>
         <span>My skills</span>
       </div>
     </div>
-    <div class="developer-img">
-      <div class="dev-img-wrapper">
-        <img src="images/developer.png" />
+    <div class="developer-img fix">
+      <div class="dev-img-wrapper fix">
+        <img src="../images/developer.png" />
       </div>
-      <div class="dev-experience dev-work">
+      <div class="dev-experience dev-work fix">
         <span>2</span>
         <span>years of experience</span>
       </div>
-      <div class="dev-projects dev-work">
+      <div class="dev-projects dev-work fix">
         <span>6</span>
         <span>completed projects</span>
       </div>
@@ -102,14 +103,14 @@
 <!-- End of Landing -->
 
 <!-- Skills -->
-<section class="skills">
-  <h1 class="section-bg-heading">My Skills</h1>
-  <h1 class="section-heading">Professional Skills</h1>
-  <h3 class="sub-heading">My <span>Skills</span></h3>
-  <div class="section-border"></div>
-  <div class="skills-cards">
-    <div class="skills-card">
-      <div class="skill">
+<section class="skills fixed">
+  <h1 class="section-bg-heading fix">My Skills</h1>
+  <h1 class="section-heading fix">Professional Skills</h1>
+  <h3 class="sub-heading fix">My <span>Skills</span></h3>
+  <div class="section-border fix"></div>
+  <div class="skills-cards fix">
+    <div class="skills-card fix">
+      <div class="skill fix">
         <span>Cloud Computing Platforms</span>
         <span>95%</span>
       </div>
@@ -117,10 +118,10 @@
         Implemented and mangaged scalable solutions on AWS, reducing infrastructure costs by
         20% through optimization of EC2 instances and leveraging serverless architectures.
       </p>
-      <div class="skills-card-progress"></div>
+      <div class="skills-card-progress fix"></div>
     </div>
-    <div class="skills-card">
-      <div class="skill">
+    <div class="skills-card fix">
+      <div class="skill fix">
         <span>Infrastructure as Code (IaC)</span>
         <span>65%</span>
       </div>
@@ -129,10 +130,10 @@
         in deployment time and ensuring conisstent infrastructure across development, testing, and production environments.
         Currently studying Terraform IaC platform.
       </p>
-      <div class="skills-card-progress"></div>
+      <div class="skills-card-progress fix"></div>
     </div>
-    <div class="skills-card">
-      <div class="skill">
+    <div class="skills-card fix">
+      <div class="skill fix">
         <span>Containerization and Orchestration</span>
         <span>70%</span>
       </div>
@@ -141,10 +142,10 @@
         improvement in application scalability. Orchestrated containerized applications using Kubernetes,
         enhancing deployement efficiency and minimizing downtime.
       </p>
-      <div class="skills-card-progress"></div>
+      <div class="skills-card-progress fix"></div>
     </div>
-    <div class="skills-card">
-      <div class="skill">
+    <div class="skills-card fix">
+      <div class="skill fix">
         <span>Networking and Security in the Cloud</span>
         <span>75%</span>
       </div>
@@ -152,10 +153,10 @@
         Designed and implemented secure cloud network architectures, including VPCs and subnets, reducing security 
         incidents by 15%. Implemented IAM policies and conducted regular secuirty audirs to ensure compliance with industry standards.
       </p>
-      <div class="skills-card-progress"></div>
+      <div class="skills-card-progress fix"></div>
     </div>
-    <div class="skills-card">
-      <div class="skill">
+    <div class="skills-card fix">
+      <div class="skill fix">
         <span>DevOps Practices and CI/CD Pipelines</span>
         <span>85%</span>
       </div>
@@ -163,26 +164,26 @@
         Championed the adoption of CI/CD pipelines using Jenkins, resulting in a 40% in time-to-market 
         for new features. Automated testing processes, improving code quality andreducing post-deployment issues by 25%.
       </p>
-      <div class="skills-card-progress"></div>
+      <div class="skills-card-progress fix"></div>
     </div>
   </div>
 </section>
 <!-- End of Skills -->
 <!-- Certifications -->
-<section class="certifications">
-  <h1 class="section-bg-heading">Certifications</h1>
-  <h1 class="section-heading">Certifications</h1>
-  <h3 class="sub-heading">My <span>Certifications</span></h3>
-  <div class="section-border"></div>
-  <div class="certification-cards">
+<section class="certifications fixed">
+  <h1 class="section-bg-heading fixed">Certifications</h1>
+  <h1 class="section-heading fixed">Certifications</h1>
+  <h3 class="sub-heading fixed">My <span>Certifications</span></h3>
+  <div class="section-border fixed"></div>
+  <div class="certification-cards fixed">
     <!-- Add your certification badges here -->
-    <div class="certification-card">
-      <img src="images/practioner.png" alt="Certification 1" />
+    <div class="certification-card fixed">
+      <img src="../images/practioner.png" alt="Certification 1" />
       <h3>Certified AWS Cloud Practioner</h3>
       <p>Description of the certification or related skills.</p>
     </div>
-    <div class="certification-card">
-      <img src="images/architect.png" alt="Certification 2" />
+    <div class="certification-card fixed">
+      <img src="../images/architect.png" alt="Certification 2" />
       <h3>Certified AWS Solutions Architect</h3>
       <p>Description of the certification or related skills.</p>
     </div>
@@ -191,22 +192,22 @@
 </section>
 <!-- End of Certifications -->
 <!-- Projects -->
-<section class="projects">
-  <h1 class="section-bg-heading">My Projects</h1>
-  <h1 class="section-heading">Portfolio</h1>
-  <h3 class="sub-heading">My <span>Projects</span></h3>
-  <div class="projects-cards">
-    <div class="project-card">
-      <div class="project-img">
-        <img src="images/Screenshot (13) (1).png" />
+<section class="projects fixed">
+  <h1 class="section-bg-heading fix">My Projects</h1>
+  <h1 class="section-heading fix">Portfolio</h1>
+  <h3 class="sub-heading fix">My <span>Projects</span></h3>
+  <div class="projects-cards fix">
+    <div class="project-card fix">
+      <div class="project-img fix">
+        <img src="../images/Screenshot (13) (1).png" />
       </div>
-      <div class="techs">
+      <div class="techs fix">
         <span>Amazon Lex,</span>
         <span>AWS Lambda,</span>
         <span>serverless</span>
       </div>
-      <h3 class="project-name">WanderStay Hotel Bot</h3>
-      <p class="project-desc">
+      <h3 class="project-name fix">WanderStay Hotel Bot</h3>
+      <p class="project-desc fix">
        Meet our Slack-integrated Hotel Booking Bot—streamlining reservations and inquiries seamlessly. Powered by AWS Lambda and Amazon Lex, it offers an effortless, 
       natural language interface for a swift and intuitive booking experience
       </p>
@@ -222,43 +223,43 @@
 <!-- End of Projects -->
 
 <!-- Contact-->
-<section class="contact">
-  <h1 class="section-bg-heading">Contact Me</h1>
-  <h1 class="section-heading">Contact</h1>
-  <h3 class="sub-heading">Let's <span>Have Some Talk</span></h3>
-  <div class="section-border"></div>
-  <div class="contact-content">
-    <div class="contact-left">
-      <div class="address">
+<section class="contact fixed">
+  <h1 class="section-bg-heading fix">Contact Me</h1>
+  <h1 class="section-heading fix">Contact</h1>
+  <h3 class="sub-heading fix">Let's <span>Have Some Talk</span></h3>
+  <div class="section-border fix"></div>
+  <div class="contact-content fix">
+    <div class="contact-left fix">
+      <div class="address fix">
         <i class="fa-solid fa-location-dot"></i>
-        <div class="contact-info">
+        <div class="contact-info fix">
           <span>Address</span>
           <span> Michigan, USA</span>
         </div>
       </div>
-      <div class="freelance">
+      <div class="freelance fix">
         <i class="fa-regular fa-user"></i>
-        <div class="contact-info">
+        <div class="contact-info fix">
           <span>Freelance</span>
           <span> Available Today!</span>
         </div>
       </div>
-      <div class="email">
+      <div class="email fix">
         <i class="fa-regular fa-envelope"></i>
-        <div class="contact-info">
+        <div class="contact-info fix">
           <span>Email</span>
           <span> bkalan32@gmail.com</span>
         </div>
       </div>
-      <div class="phone">
+      <div class="phone fix">
         <i class="fa-solid fa-phone"></i>
-        <div class="contact-info">
+        <div class="contact-info fix">
           <span>Phone</span>
           <span> 586-424-8883</span>
         </div>
       </div>
     </div>
-    <div class="contact-right">
+    <div class="contact-right fix">
       <form>
         <div class="input-groups">
           <div class="input-group">
@@ -294,7 +295,7 @@
 <!-- End of Contact-->
 
 <!-- Footer -->
-<footer class="footer">
+<footer class="footer fixed">
   <div class="icons">
     <i class="fa-brands fa-facebook-f"></i>
     <i class="fa-brands fa-linkedin-in"></i>

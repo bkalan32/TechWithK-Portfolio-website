@@ -1112,4 +1112,123 @@ textarea {
     transform: translateY(-50%);
   }
   
+  /* Tablet Layout: 768px. */
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .certification-card:first-child {
+      margin-left: 0;
+      margin-bottom: 50px;
+  }
+  .certification-card {
+      width: 100%;
+  }
+  .certifications {
+      height: 100%;
+      margin-bottom: 100px;
+  }
+  .dev-experience {
+      bottom: 213px;
+      right: 12rem;
+  }
+  .dev-experience {
+      bottom: 205px;
+      right: 12rem;
+  }
+  .dev-projects {
+      bottom: 140px;
+      right: 43px;
+  }
+  .section-border {
+      margin-right: 3rem;
+  }
+  
+  }
+  
+  
+  
+  /* Mobile Layout: 320px. */
+  
+  @media only screen and (min-width: 320px) and (max-width: 479px) {
+      .certification-card:first-child {
+          margin-left: 0;
+      }
+      .certification-card {
+       
+          width: 100%;
+
+      }
+      .skills-cards {
+          margin-left: 0;
+      }
+      .certifications {
+          height: 173vh;
+      }
+      .certifications .section-heading, .certifications .sub-heading {
+          font-size: 5rem;
+      }
+
+  }
+  
+  
+  
+  /* Wide Mobile Layout: 480px. */
+  
+  @media only screen and (min-width: 480px) and (max-width: 767px) {
+      
+      .certification-card {
+          float: left;
+          text-align: center;
+          width: 100%;
+          margin: 0 auto;
+      }
+
+      .certification-card:first-child {
+          margin-left: 0;
+          margin-bottom: 50px;
+      }
+      .certifications {
+          height: 100%;
+      }
+   
+      .skills-cards {
+          margin: 0;
+      }
+      .skills {
+          padding: 0;
+          margin-top: -64px;
+      }
+      .certifications {
+          margin-top: 125px;
+      }
+      .projects {
+          margin-top: 110px;
+      }
+      .contact {
+          margin-top: 70px;
+      }
+      .developer-info {
+          margin-right: 0;
+       }
+       .developer-img{display: none;}
+       .section-border {
+          width: 0.3rem;
+  
+      }
+      .skills-cards {
+          width: 450px;
+      }
+      .skills-card {
+          width: 450px;
+          margin-top: 25px;
+      }
+      .skills-card {
+          width: 241px;
+          margin-top: 25px;
+          margin: 0 auto;
+      }
+      .contact-content {
+          margin-top: -60px;
+      }
+
+  }
+  
   
